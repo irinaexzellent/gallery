@@ -1,6 +1,6 @@
 # ABOUT THE PROJECT
 
-The gallary project allows you to view photos in a reduced size (320x240px) and download them in their original format.
+The gallery project allows you to view photos in a reduced size (320x240px) and download them in their original format.
 
 # DESCRIPTION OF COMMANDS FOR LAUNCHING THE APPLICATION
 1. Install Node.js
