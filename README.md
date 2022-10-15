@@ -1,18 +1,28 @@
-# О ПРОЕКТЕ
+# ABOUT THE PROJECT
 
-Проект gallary позволяет просматривать фотографии в уменьшенном размере (320x240px) и скачивать их в оригинальном формате.
+The gallary project allows you to view photos in a reduced size (320x240px) and download them in their original format.
 
-# ОПИСАНИЕ КОМАНД ДЛЯ ЗАПУСКА ПРИЛОЖЕНИЯ
-1. Клонировать проект:
-```
-git clone git@github.com:irinaexzellent/gallary.git
-```
-2. Установить Node.js
-3. Установить модуль sharp для Node.js
+# DESCRIPTION OF COMMANDS FOR LAUNCHING THE APPLICATION
+1. Install Node.js
+2. Install module sharp for Node.js
 ```
 npm install sharp
 ```
+3. Clone project:
+```
+git clone git@github.com:irinaexzellent/gallary.git
+```
+4. Go to project folder:
+```
+/gallary/
+```
+5. Run:
+```
+node app.js
+```
+As a result of the command execution, the images.json file will be created with a list of photo names in the original format;
+Each photo has a reduced copy.
 
-## Автор
+## AUTHOR
 
-* **Ирина Иконникова** - (https://github.com/irinaexzellent)
+* **Irina Ikonnikova** - (https://github.com/irinaexzellent)
