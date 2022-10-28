@@ -1,7 +1,8 @@
 body {
-  background: #6c373f;
+  background: #696969;
   display: flex;
   justify-content: center;
+  color: #222;
   }
 
 .clearfix {
@@ -40,3 +41,92 @@ body {
   max-width: 300px;
   margin: 20px;
 }
+
+.container {
+  max-width: 1400px;
+  margin: 30px auto;
+  background: #f1f1f1;
+}
+
+
+.menu {
+  float: left; /*Задаем обтекание*/
+  line-height: 120px;/*Высота строки +  верт. центрирования текста*/
+  font-size: 20px;
+  background: dodgerblue;
+  color: white;
+  margin-top: 30px;
+  width: 320px; /*Фиксируем ширину блока*/
+  height: 320px;
+  text-align: center; /*Центрируем текст по горизонтали*/
+  position: sticky;
+  top: 30px;
+}
+
+span.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;  
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.dark .container {
+  background: #3c3c3c;
+}
+
+.progressbar {
+  height: 10px;
+  width: 100%;
+  background: rgb(77, 76, 75);
+  position: fixed;
+  top: 10px;
+}
+
+.progressbar > .progressbar-line {
+  height: 10px;
+  width: 0;
+  background: rgb(10, 10, 10);
+}
+
+.test-field{
+  min-height: 450px;
+  background: #d2d2d2;
+  position: relative;
+}
+
+.courses a {
+  color: #222;
+}
+
+#clock{
+  color: #000;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+#theme{
+  color: #000;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
